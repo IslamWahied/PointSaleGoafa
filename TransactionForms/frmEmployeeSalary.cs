@@ -32,7 +32,7 @@ namespace PointOfSell.TransactionForms
 
         public void FillSlkItem()
         {
-            DataTable dtttt = new DataTable();
+            DataTable dttttxxxx = new DataTable();
             DataTable dtEmployee = new DataTable();
             dtEmployee = con.GetData("Select Code,Name  from Employee_Inf where IsDeleted = 0 ");
             slkEmployee.Properties.DataSource = dtEmployee;
