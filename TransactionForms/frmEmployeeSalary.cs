@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PointOfSell.TransactionForms
+namespace PointOfSell.TransactionForms  
 {
     public partial class frmEmployeeSalary : MaterialSkin.Controls.MaterialForm
     {
